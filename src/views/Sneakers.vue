@@ -19,7 +19,7 @@
 
       <div v-else class="card-background">
         <div class="sort-search-container flex justify-end items-center mb-10">
-          <h1 style="display: flex;margin-right: 45%;">Sneakers</h1>
+          <h1 style="margin-right: auto;">Sneakers</h1>
           <select v-model="sortKey" @change="sortSneakers" class="py-2 px-3 border border-gray-200 rounded-md sort-select ml-2">
             <option value="name">By name</option>
             <option value="priceAsc">By price (cheap)</option>
@@ -652,6 +652,7 @@ const loadSelectedItems = () => {
   }
   
   .sort-select {
+    width: 25%;
     margin-right: 10px;
     background-color: #222;
     color: white;
@@ -687,7 +688,7 @@ const loadSelectedItems = () => {
   }
   
   .sneaker-card {
-    width: calc(34.65% - 20px);
+    width: calc(34.5% - 20px);
     min-width: 250px;
     text-align: left;
     /* Выровнять текст влево */

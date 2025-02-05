@@ -1,0 +1,10 @@
+{
+        "name": "Nike Air Max 90",
+        "type": "Sneakers",
+        "price": 6999,
+        "country": "USA",
+        "description": "Classic Nike sneakers with a timeless design.",
+        "materials": "Leather, Rubber",
+        "imageUrl": "public/sneakers-1.jpg"
+    
+}

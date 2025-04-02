@@ -77,8 +77,8 @@
               </div>
             </div>
             <div class="basket-button-container">
-              <Button label="Оформить заказ" @click="placeOrder" class="basket-button-confirm" :disabled="!isLoggedIn" />
-              <Button label="Закрыть" @click="cartDialogVisible = false" class="basket-button-cancel" />
+              <Button label="Place an order" @click="placeOrder" class="basket-button-confirm" :disabled="!isLoggedIn" />
+              <Button label="To close" @click="cartDialogVisible = false" class="basket-button-cancel" />
             </div>
           </div>
         </div>
